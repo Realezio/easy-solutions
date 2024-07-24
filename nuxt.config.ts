@@ -8,6 +8,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxtjs/seo',
+    '@nuxtjs/tailwindcss',
   ],
   extends: ['nuxt-umami'],
   eslint: {
