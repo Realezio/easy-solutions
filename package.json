@@ -15,6 +15,7 @@
     "@nuxt/eslint": "^0.3.13",
     "@nuxtjs/seo": "2.0.0-rc.16",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "daisyui": "^4.12.10",
     "nuxt": "^3.12.3",
     "nuxt-umami": "^2.6.4",
     "vue": "latest"
