@@ -15,7 +15,6 @@
     "@nuxt/devtools": "^1.6.0",
     "@nuxt/eslint": "^0.7.0",
     "@nuxt/icon": "^1.7.5",
-    "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/seo": "2.0.0-rc.23",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "daisyui": "^4.12.10",

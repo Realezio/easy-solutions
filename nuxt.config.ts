@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   ssr: true,
   compatibilityDate: '2024-04-03',
   devtools: {
-    enabled: true,
+    enabled: process.env.NODE_ENV === 'development',
   },
   modules: [
     '@nuxt/eslint',
@@ -11,18 +11,10 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-umami',
     '@nuxt/icon',
-    '@nuxtjs/google-fonts',
   ],
   css: [
     '@/assets/scss/global.scss'
   ],
-  googleFonts: {
-    preload: true,
-    families: {
-      'Montserrat': true,
-      'Quantico': true
-    }
-  },
   eslint: {
     config: {
       stylistic: true,
