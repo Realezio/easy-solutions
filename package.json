@@ -12,13 +12,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/eslint": "^0.3.13",
-    "@nuxtjs/seo": "2.0.0-rc.16",
+    "@nuxt/devtools": "^1.6.0",
+    "@nuxt/eslint": "^0.7.0",
+    "@nuxt/icon": "^1.7.5",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/seo": "2.0.0-rc.23",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "daisyui": "^4.12.10",
-    "nuxt": "^3.12.3",
-    "nuxt-umami": "^2.6.4",
+    "nuxt": "^3.14.159",
+    "nuxt-umami": "^3.0.2",
     "vue": "latest"
   },
-  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903",
+  "devDependencies": {
+    "sass": "^1.81.0"
+  }
 }
