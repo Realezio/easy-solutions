@@ -1,0 +1,29 @@
+@mixin pseudo-before-angled-border($color, $width, $height, $spacing, $angle) {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $height;
+  }
+
+  &::before {
+    background-image: repeating-linear-gradient($angle, $color 0 $width, transparent 0 $spacing);
+
+  }
+}
+
+.angled-border {
+  @include pseudo-before-angled-border(#000000, .5em, 1.6em, .9em, -45deg);
+}
+
+.angled-border-yellow-500 {
+  @include pseudo-before-angled-border(#d5a940, .5em, 1.6em, .9em, -45deg);
+}
+
+.angled-border-yellow-600 {
+  @include pseudo-before-angled-border(#c9961a, .5em, 1.6em, .9em, -45deg);
+}

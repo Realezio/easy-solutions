@@ -6,7 +6,15 @@ export default {
     './**/*.ts',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'display': ['Quantico'],
+        'sans': ['Montserrat', 'arial', 'sans-serif'],
+      },
+    },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
+  daisyui: {
+    themes: ['bumblebee'],
+  },
 }
